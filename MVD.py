@@ -13,12 +13,12 @@ import math
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train')
-    parser.add_argument('--cwru_data', type=str, default=".\Dataset\\48kcwru_data.npy", help='')
-    parser.add_argument('--cwru_label', type=str, default=".\Dataset\\48kcwru_label.npy", help='')
-    parser.add_argument('--jnu_data', type=str, default=".\Dataset\\jnudata1000_data.npy", help='')
-    parser.add_argument('--jnu_label', type=str, default=".\Dataset\\jnudata1000_label.npy", help='')
-    parser.add_argument('--seu2_data', type=str, default=".\Dataset\\seu2_data.npy", help='')
-    parser.add_argument('--seu2_label', type=str, default=".\Dataset\\seu2_label.npy", help='')
+    parser.add_argument('--cwru_data', type=str, default=".\Dataset\\cwrudata\\48kcwru_data.npy", help='')
+    parser.add_argument('--cwru_label', type=str, default=".\Dataset\\cwrudata\\48kcwru_label.npy", help='')
+    parser.add_argument('--jnu_data', type=str, default=".\Dataset\\jnudata\\jnudata1000_data.npy", help='')
+    parser.add_argument('--jnu_label', type=str, default=".\Dataset\\jnudata\\jnudata1000_label.npy", help='')
+    parser.add_argument('--seu2_data', type=str, default=".\Dataset\\seudata\\seu2_data.npy", help='')
+    parser.add_argument('--seu2_label', type=str, default=".\Dataset\\seudata\\seu2_label.npy", help='')
     parser.add_argument('--batch_size', type=int, default=128, help='batchsize of the training process')
     parser.add_argument('--nepoch', type=int, default=200, help='max number of epoch')
     parser.add_argument('--num_classes', type=int, default=4, help='')
