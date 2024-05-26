@@ -22,7 +22,7 @@ doi = {10.1016/j.ymssp.2024.111544}
 ```
 ### Usage
 
-建议大家将开源的MMSD域差异度量损失（即插即用）在赵老师的开源的代码中替换掉度量模块。(https://github.com/ZhaoZhibin/UDTL)
+建议大家将开源的VDR域差异度量损失（即插即用）在赵老师的开源的代码中替换掉度量模块。(https://github.com/ZhaoZhibin/UDTL)
 
 替换方式：
 
